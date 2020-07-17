@@ -10,13 +10,13 @@
 name: OpenWrt-k3
 
 on:
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: 0 22 * * *
-  # release:
-  #   types: [published]
+# push:
+#  branches: 
+#      - master
+#  schedule:
+#    - cron: 0 22 * * *
+# release:
+#   types: [published]
 
 jobs:
 
